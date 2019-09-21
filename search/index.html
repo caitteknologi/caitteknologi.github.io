@@ -47,7 +47,8 @@ for(var i=0;i<params.length;i++)
 {   var tmp = params[i].split("=");
     queryStringList[tmp[0]] = unescape(tmp[1]);
 }
-var keyword = queryStringList["keyword"];
+var key = queryStringList["keyword"].replace(/[-]/g, " ");
+var keyword = key;
 var kkunci = "Cait Teknologi Ada membuat servis ";
 var iurl = "<a href='https://caitteknologi.github.io/'>";
 var kata =" Dengan Kami Serendah RM350 Pelbagai Jenis Website Boleh. Premium Themes & Plugins E-commerce, Booking Website, Corporate Website Mobile Responsive.";
