@@ -1,0 +1,76 @@
+/* CSS UNTUK POS KEDAI MAKAN BY CAIT TEKNOLOGI */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+    min-width: 100%;
+}
+
+
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #f3f5f7;
+  }
+
+.shape1{
+    position:absolute;
+    top:0px;
+    height: 20%;
+    min-width: 100%;
+    background-image: url(../img/atas.svg);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.shape2{
+    position:absolute;
+    bottom:0px;
+    min-width: 100%;
+    height: 20%;
+    background-image: url(../img/bawah.svg);
+    background-repeat: no-repeat;
+    z-index: -1;
+    margin-left: -0%
+}
+
+.logmasuk{
+width: 100%;
+  max-width: 330px;
+  padding-top: 50%;
+  margin: 0 auto;
+
+}
+.logmasuk input {
+    height: 50px;
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.005);
+}
+.logmasuk input:focus {
+    border: 1px;
+    box-shadow: 0 0 0 0.2rem #ddd;
+
+}
+.logmasuk .btn-login{
+   background-color: black;
+   border-color: black;
+   border-radius: 20px;
+   width: 100%;
+   height: 50px;
+   margin-top: 26px;
+   font-family: 'Open Sans', sans-serif;
+   box-shadow: 0 0 50px rgba(0,0,0,0.2);
+
+}
+.h-w {
+    margin-bottom: 26px;
+}
+
