@@ -1,1 +1,4 @@
-<?php echo "this is sitmap"; ?>
+<?php 
+
+$sitemap = "indez.xml";
+echo "this is sitmap"; ?>
